@@ -1,0 +1,19 @@
+# Private chat data and anything derived from it - never commit
+data/
+*.log
+*.jsonl
+*.npy
+result.json
+
+# Your personal settings (real names)
+src/config_local.py
+
+# Environment / caches
+.venv/
+__pycache__/
+*.pyc
+
+# Local tooling leftovers (installers, downloaded models, helper scripts)
+installer/
+models/
+dl_loop.ps1
